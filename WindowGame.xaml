@@ -1,0 +1,22 @@
+﻿<Window x:Name="GameWindow" x:Class="Game1.WindowGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Game1"
+        mc:Ignorable="d"
+        Title="Игра" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="197">
+            <Grid Margin="1,1,-1,-1">
+                <Label Content="Здоровье: 100" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="175"/>
+                <Label Content="Атака: 1" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="175"/>
+                <Label Content="Защита: 1" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="175"/>
+                <Label Content="Крит. шанс: 30%" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="175"/>
+                <Label Content="Деньги: 0" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top" Width="175"/>
+                <Label Content="Ячейки инвертаря: 10" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Width="175"/>
+                <Label Content="Player Name" HorizontalAlignment="Center" Margin="0,-8,0,0" VerticalAlignment="Top" Padding="5"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

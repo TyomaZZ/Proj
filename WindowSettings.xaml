@@ -1,0 +1,13 @@
+﻿<Window x:Name="Settings" x:Class="Game1.WindowSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Game1"
+        mc:Ignorable="d"
+        Title="Настройки" Height="300" Width="350" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="SaveSettingsButton" Content="Сохранить и выйти" HorizontalAlignment="Center" Margin="0,0,0,10" VerticalAlignment="Bottom" Width="300" FontFamily="Rockwell Extra Bold" FontSize="18" Click="SaveSettingsButton_Click" Cursor="Hand"/>
+
+    </Grid>
+</Window>
